@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-Created by Angel--->
+<html>
+    <head>
+        <title>Hightech Services</title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    </head>
+    
+    
+    <body>
+        <!-- Area for the website name or logo -->
+        <header>
+            
+        <!-- Area to add hyperlinks to other pages within the website -->
+        <nav>
+            <ul>
+            <div id="logo">
+              <a href="index.html"><img src="css/logo2.png" alt="logo" width="200px"></a>
+            </div>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+                <div class="dropdown-content">
+                  <a href="./content1.html">Smarthomes</a>
+                  <a href="./content2.html">Network</a>
+              <li><a href="./specials.html">CURRENT DEALS</a></li>
+              <li><a href="./contact.html">CONTACT</a></li>
+              <li><a href="./aboutus.html">ABOUT US</a></li>
+                </div>
+              </li>
+            </ul>
+        </nav>
+        </header>
+        
+        
+    
+        <!-- Home Page Banner -->
+        <div id="banner" class="desktop">
+            <img src="./img/contact.jpg" alt="installation banner" width="100%">
+        </div>
+        
+        <!-- Use the main area to add the main content of the webpage -->
+        <main>
+    
+    
+            <h2>Contact Us</h2>
+        <table>
+          <th class="contact">
+            <div id="newsletterFieldDiv">
+              <form action="javascript:void(0);">
+                <label for="name">Name</label><br/>
+                <input type="text" name="namefirstlast" placeholder="Your Name"><br/>
+                <label for="email">Email Address</label><br/>
+                <input type="text" name="email" placeholder="Your Email Address"><br/>
+                <label for="email">Subject</label><br/>
+                <input type="text" name="email" placeholder="Write Something...">
+                <br/>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </th>
+          
+          <th>
+              <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCng3aNoPgNjmhFlyhnCt8EllW9F7LJEog'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://addmap.net/'>adding google maps to website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=05f2852018a592bdf9c4f7a2573571ac42ed90a5'></script>
+              <script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(34.0045161,-118.38917600000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(34.0045161,-118.38917600000002)});infowindow = new google.maps.InfoWindow({content:'<strong>West Los Angeles College</strong><br> 9000 Overland Ave, Culver City, CA 90230<br>90017 Los Angeles<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+          </th>
+          
+        </table>
+        
+        </main>
+        
+        
+        <!-- Use the main area to add the footer content of the webpage -->    
+        <footer>
+            <div class="siteMap">
+              <a href="./aboutus.html">ABOUT US</a>
+              <a href="./contact.html">CONTACT</a>
+              <a href="./specials.html">CURRENT DEALS</a>
+            </div>
+            <hr>
+            <p>&copy; Copyright 2018. All Rights Reserved.</p>
+        </footer>
+            
+    </body>
+</html>
